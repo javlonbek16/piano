@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+    <script src="audio.js"></script>
+    <script src="plan.js"></script>
+  </head>
+  <body>
+    <script
+      type="text/javascript"
+      src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js"
+      data-dojo-config="usePlainJson: true, isDebug: false"
+    ></script>
+    <script type="text/javascript">
+      window.dojoRequire(["mojo/signup-forms/Loader"], function (L) {
+        L.start({
+          baseUrl: "mc.us20.list-manage.com",
+          uuid: "dbcd725d81fa004cc7aa6230a",
+          lid: "673d85a600",
+          uniqueMethods: true,
+        });
+      });
+    </script>
+    <h2><a href="https://t.me/nematov_javlon">Author : Javlon Nematov </a></h2>
+    <div id="keyboard" class="keyboard-holder"></div>
+
+    <script type="text/javascript">
+      playKeyboard();
+    </script>
+  </body>
+</html>
